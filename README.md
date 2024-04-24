@@ -52,6 +52,26 @@ If you found a bug in the source code and can reproduce it consistently after tr
 
 Even better, you can [submit a Pull Request](https://elemn.to/gh-new-pr) with a fix, and we will happily review it.
 
+### Building
+
+Building your own code can be done with the following steps:
+
+0. Install [Node.js 20.x](https://nodejs.org/). If you have it already installed, you can skip this step.
+1. Go to the terminal in your project directory and run `npm ci`
+2. When `npm ci` has finished, run `npx grunt build`
+3. A new folder has been created, called `build`.
+
+To use your custom code on WordPress follow these steps:
+
+0. **Make a backup! You can lose your data if you messed up your code.**
+1. Rename the `build` folder to `elementor`.
+2. Zip the `elementor` folder.
+3. In WordPress go to your plugins.
+4. Click on "Add new"
+5. Click on "Upload plugin"
+6. Upload your plugin and install it.
+7. If you already have Elementor installed on your website, WordPress will ask which version you want to use. Click on "Replace current with uploaded".
+
 ### Security Report
 
 Join our community-driven [Bug Bounty programs](https://elemn.to/gh-to-bounty-programs).
@@ -88,16 +108,16 @@ Please **DO NOT** open issues or discussions to request support.
 
 Alternatively, you can visit one of these resources:
 
--   **Help Center** <br>Visit the [Elementor Help Center](https://elemn.to/gh-to-help-center) to find solutions to the most frequent problems, or read the documentation about Elementor's many features.
--   **Academy** <br>Grow your Web Creator skills and learn to make the most of Elementor in the [Elementor Academy](https://elemn.to/gh-to-academy).
--   **Global Community** <br>Join the [Elementor Global Community](https://elemn.to/community-on-fb) on Facebook. Where all kinds of users come together to help each other.
--   **Support Forum** <br>If you have more questions, visit the free [Support Forum](https://elemn.to/wp-support-forum) on our WordPress plugin page.
--   **Elementor Website** <br>For more information about features, FAQs, and documentation, check out our website at [Elementor Website Builder](https://elemn.to/gh-to-elementor).
+- **Help Center** <br>Visit the [Elementor Help Center](https://elemn.to/gh-to-help-center) to find solutions to the most frequent problems, or read the documentation about Elementor's many features.
+- **Academy** <br>Grow your Web Creator skills and learn to make the most of Elementor in the [Elementor Academy](https://elemn.to/gh-to-academy).
+- **Global Community** <br>Join the [Elementor Global Community](https://elemn.to/community-on-fb) on Facebook. Where all kinds of users come together to help each other.
+- **Support Forum** <br>If you have more questions, visit the free [Support Forum](https://elemn.to/wp-support-forum) on our WordPress plugin page.
+- **Elementor Website** <br>For more information about features, FAQs, and documentation, check out our website at [Elementor Website Builder](https://elemn.to/gh-to-elementor).
 
 **If you have an active [Elementor Pro](https://elemn.to/gh-to-elementor-pro) subscription, you are entitled to personal support. Please see your purchase email or visit your [Elementor Account page](https://elemn.to/my-elementor) for details.**
 
 ## Liked Elementor?
 
--   Join the [Elementor Global Community](https://elemn.to/community-on-fb) on Facebook.
--   Learn from our tutorials on [Elementor's YouTube Channel](https://elemn.to/yt).
--   Or [rate us on WordPress](https://elemn.to/gh-to-wp-new-review). It would mean the world to us! :)
+- Join the [Elementor Global Community](https://elemn.to/community-on-fb) on Facebook.
+- Learn from our tutorials on [Elementor's YouTube Channel](https://elemn.to/yt).
+- Or [rate us on WordPress](https://elemn.to/gh-to-wp-new-review). It would mean the world to us! :)
